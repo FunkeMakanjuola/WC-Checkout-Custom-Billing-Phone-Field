@@ -1,3 +1,4 @@
+
 <?php
 /**
 Plugin Name: WC Checkout Custom Billing Phone Field
@@ -11,8 +12,6 @@ License: GPLv2
 WC CHECKOUT CUSTOM BILLING PHONE FIELD
 Copyright (C) 2018, https://github.com/FunkeMakanjuola/WC-Checkout-Custom-Billing-Phone-Field
 */
-
-//register javascripts
 
 add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
 function wpb_adding_scripts()
