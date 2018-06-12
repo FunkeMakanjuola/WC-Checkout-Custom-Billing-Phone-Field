@@ -8,4 +8,4 @@
 <p>Mask Phone number to format +1(xxx) xxx-xxxx<p/>
 
 
-<p>Download Link : https://wordpress.org/plugins/wc-checkout-custom-billing-phone-field</p>
+<!--<p>Download Link : https://wordpress.org/plugins/wc-checkout-custom-billing-phone-field</p>-->
