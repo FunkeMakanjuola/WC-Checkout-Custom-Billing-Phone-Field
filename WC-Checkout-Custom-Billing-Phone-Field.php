@@ -15,8 +15,6 @@ Copyright (C) 2018, https://github.com/FunkeMakanjuola/WC-Checkout-Custom-Billin
 add_action( 'wp_enqueue_scripts', 'cbpf_plugin_scripts' );
 function cbpf_plugin_scripts()
 {
-   wp_register_script('jQuery', plugins_url('assets/js/jquery-1.7.1.min.js', __FILE__), array('jquery'), '1.7.1', true);
-    wp_enqueue_script('jQuery');
     wp_register_script('maskinput', plugins_url('assets/js/jquery.maskinput.js', __FILE__), array('jquery'), '1.4.1', true);
     wp_enqueue_script('maskinput');
     wp_register_script('maskphone', plugins_url('assets/js/maskphone.js', __FILE__), array('jquery'), '1.0.0', true);
