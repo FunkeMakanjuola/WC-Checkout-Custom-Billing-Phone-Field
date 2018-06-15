@@ -12,6 +12,10 @@ WC CHECKOUT CUSTOM BILLING PHONE FIELD
 Copyright (C) 2018, https://github.com/FunkeMakanjuola/WC-Checkout-Custom-Billing-Phone-Field
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
 add_action( 'wp_enqueue_scripts', 'cbpf_plugin_scripts' );
 function cbpf_plugin_scripts()
 {
