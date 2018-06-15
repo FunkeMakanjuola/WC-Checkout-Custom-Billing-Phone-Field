@@ -34,6 +34,15 @@ e.g.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. You are done.
 
+== Changelog ==
+
+== 1.0.2 ==
+Fixed files from being accessed directly
+readme.txt update
+
+== 1.0.1 ==
+First release
+
 
 == Screenshots ==
 
